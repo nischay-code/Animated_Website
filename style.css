@@ -157,7 +157,7 @@ body {
     justify-content: space-between;
 }
 
-#motive h3{
+#motive h3 {
     text-transform: uppercase;
     color: #5e5e5e;
 }
@@ -231,13 +231,15 @@ body {
 
 }
 
-#firstpic h1 ,#secondpic h1{
+#firstpic h1,
+#secondpic h1 {
     letter-spacing: -.1vw;
     font-weight: 100;
     font-size: 2vw;
 }
 
-#firstpic p ,#secondpic p{
+#firstpic p,
+#secondpic p {
     opacity: .8;
     letter-spacing: -.07vw;
     font-size: 1vw;
@@ -258,25 +260,25 @@ body {
     background-color: #5e5e5e;
 }
 
-#secondpic p{
+#secondpic p {
     width: 50%;
     text-align: right;
 }
 
-#banner{
+#banner {
     display: flex;
     align-items: center;
     width: 100%;
     margin-top: 8vw;
 }
 
-#bimg{
-    width:65% ;
+#bimg {
+    width: 65%;
     height: 60vh;
     background-color: #5e5e5e;
 }
 
-#bimg img{
+#bimg img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -284,26 +286,26 @@ body {
 
 }
 
-#btext{
+#btext {
     width: 35%;
     padding: 0 3vw;
-    
+
 }
 
-#btext h1{
+#btext h1 {
     font-size: 2.8vw;
     font-weight: 400;
     letter-spacing: -.15vw;
     line-height: 1;
 }
 
-#btext p{
+#btext p {
     margin-top: 20px;
     width: 60%;
     font-size: 1vw;
 }
 
-#future{
+#future {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -314,16 +316,17 @@ body {
     height: 100vh;
     background-color: #fff;
 }
+
 #future video {
     opacity: 1;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100%;
 }
 
-#ftext{
+#ftext {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,7 +338,7 @@ body {
 }
 
 
-#ftext button{
+#ftext button {
     padding: .8vw 1.7vw;
     font-size: .6vw;
     text-transform: capitalize;
